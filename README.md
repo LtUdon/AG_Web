@@ -1,5 +1,6 @@
 # Notes
-## Startup
+## To Self
+### Start-up
 ```ps
 C:\Users\...\AG_Web>npm run dev
 
@@ -21,6 +22,9 @@ h
   press c + enter to clear console
   press q + enter to quit
 ```
+### Committing
+After every commit, run:
+`npm run deploy`
 ## Main Components
 - `package-lock.json`, `package.json`, and `node_modules\`
   - Represents the configuration and dependencies of the project.
