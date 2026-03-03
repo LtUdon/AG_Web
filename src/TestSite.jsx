@@ -1,4 +1,4 @@
-import './App.css'
+import './TestSite.css'
 
 function getExplanation(){
 const explain = <p>This is a simple React app that demonstrates how to use functions to generate content.</p>
@@ -15,7 +15,7 @@ return (
 )
 }
 
-function App({id}) {
+function TestSite({id}) {
 const explanation = getExplanation()
 return (
 	<>
@@ -34,4 +34,4 @@ return (
 )
 }
 
-export default App
+export default TestSite

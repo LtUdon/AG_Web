@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './App.jsx'
+import TestSite from './TestSite.jsx'
 
 // Generate random 10 digit number
 function getRandomId(){
@@ -10,6 +10,6 @@ function getRandomId(){
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App id={getRandomId()}/>
+    <TestSite id={getRandomId()}/>
   </StrictMode>,
 )
