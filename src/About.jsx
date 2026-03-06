@@ -5,10 +5,10 @@ function About() {
 return (
 	<>
 	<title>Gian Alfonso</title>
-	<div>
+	<nav>
 		<img src={gianImage} alt="Gian Alfonso" className="profile-pic"/> <br></br>
 		<button onClick={() => window.location.href = '/'} className='home-button'>Home</button>
-	</div>
+	</nav>
 	<div>
 		
 		<div className='about-container'>

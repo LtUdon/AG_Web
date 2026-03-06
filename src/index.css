@@ -57,6 +57,24 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+nav{
+  display: flex;
+  justify-content:space-between; /* left */
+  align-items: center;
+  /* gap: 5px; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 16px 32px;
+}
+
+nav > ul{
+  display: flex;
+  list-style-type: none;
+  gap: 40px;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #0072ec;
