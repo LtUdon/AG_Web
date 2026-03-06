@@ -6,10 +6,11 @@ return (
 	<>
 	<title>Gian Alfonso</title>
 	<div>
-		<img src={gianImage} alt="Gian Alfonso" className="profile-pic"/>
+		<img src={gianImage} alt="Gian Alfonso" className="profile-pic"/> <br></br>
+		<button onClick={() => window.location.href = '/'} className='home-button'>Home</button>
 	</div>
 	<div>
-		<button onClick={() => window.location.href = '/'} className='home-button'>Home</button>
+		
 		<div className='about-container'>
 			<h1>About Me</h1>
 					<p>
@@ -36,19 +37,29 @@ return (
 				<h2>Skills</h2>
 				<h3>Languages</h3>
 				<div className='token-container'>
-					Python, C++, JS, HTML, CSS, SQL
+					<div className='token'>Python</div>
+					<div className='token'>C++</div>
+					<div className='token'>JS</div>
+					<div className='token'>HTML</div>
+					<div className='token'>CSS</div>
+					<div className='token'>SQL</div>
 				</div>
-				<h3>Databases</h3>
+				<h3>Database Managers</h3>
 				<div className='token-container'>
-					PostgreSQL, MySQL, SQlite
+					<div className='token'>PostgreSQL</div>
+					<div className='token'>MySQL</div>
+					<div className='token'>SQlite</div>
 				</div>
 				<h3>Web Development</h3>
 				<div className='token-container'>
-					Node.js, React
+					<div className='token'>Node.js</div>
+					<div className='token'>React</div>
+					<div className='token'>Vite</div>
 				</div>
 				<h3>Video Game Development</h3>
 				<div className='token-container'>
-					Unreal Engine, Blender
+					<div className='token'>Unreal Engine</div>
+					<div className='token'>Blender</div>
 				</div>
 		</div>
 	</div>
