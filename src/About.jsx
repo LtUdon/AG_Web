@@ -6,22 +6,50 @@ return (
 	<>
 	<title>Gian Alfonso</title>
 	<div>
+		<img src={gianImage} alt="Gian Alfonso" className="profile-pic"/>
+	</div>
+	<div>
 		<button onClick={() => window.location.href = '/'} className='home-button'>Home</button>
 		<div className='about-container'>
 			<h1>About Me</h1>
 					<p>
-						Hello! My name is Gian Alfonso, a current student at the University of Houston. <br></br>
-						Growing up, I've always had a love for video games and decided to persue game development. <br></br>
-						I've had my first taste in programming since I was 14. And since then, I realized that problem-solving has been my favorite aspect in programming!<br></br>
-						After learning Java and C# in high school, I decided to continue my programming journey and major in Computer Science exploring more languages.
+						Hello! My name is Gian Alfonso, a current student at the University of Houston (graduating in the Spring of 2027). <br></br>
+						I thrive in team-based projects in positions like database management and full-stack development.
 					</p>
 					<p>
-						Now, as a UH student (graduating in the Spring of 2027), I thrive in team-based projects in positions like database management and full-stack development.
+						Growing up, I've always had a love for video games and decided to persue game development. <br></br>
+						I've had my first taste in programming since I was 14. And since then, I realized that problem-solving has been my favorite aspect in programming! <br></br>
+						After learning Java and C# in high school, I decided to continue my programming journey and major in Computer Science exploring more languages. <br></br>
+						Now, as a UH student I've been able to get my hands on a more hands-on experience in video game development among other concepts! <br></br>
 					</p>
 				<h2>Education</h2>
-					<h3>University of Houston <i>2024 - 2027</i></h3>
-					<h3>Houston City College <i>2021 - 2023</i></h3>
+					<h3>University of Houston </h3>
+					<p>
+						<i>January 2024 - PRESENT</i> <br></br>
+						GPA: 2.59 
+					</p>
+					<h3>Houston City College </h3>
+					<p>
+						<i>August 2021 - December 2023</i> <br></br>
+						GPA: 3.15
+					</p>
 				<h2>Skills</h2>
+				<h3>Languages</h3>
+				<div className='token-container'>
+					Python, C++, JS, HTML, CSS, SQL
+				</div>
+				<h3>Databases</h3>
+				<div className='token-container'>
+					PostgreSQL, MySQL, SQlite
+				</div>
+				<h3>Web Development</h3>
+				<div className='token-container'>
+					Node.js, React
+				</div>
+				<h3>Video Game Development</h3>
+				<div className='token-container'>
+					Unreal Engine, Blender
+				</div>
 		</div>
 	</div>
 	</>

@@ -9,7 +9,7 @@ return (
 	<>
 	<title>Gian Alfonso</title>
 	<div>
-		<img src={gianImage} alt="Gian Alfonso" className="profile-pic"/>
+		<img src={gianImage} alt="Gian Alfonso" className="profile-pic-home"/>
 		
 		<h1>Hi, I'm Gian!</h1>
 		<div className='button_directories'>

@@ -5,6 +5,12 @@
   text-align: center;
 }
 
+.token-container{
+  flex: content;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
 .profile-pic {
   border-radius: 30%;
   width: 150px;
