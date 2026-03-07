@@ -1,13 +1,16 @@
+import { useNavigate } from 'react-router-dom'
 import './About.css'
 import gianImage from '/Gian.png'
 
 function About() {
+	const navigate = useNavigate()
+
 return (
 	<>
-	<title>Gian Alfonso</title>
+	<title>Gian Alfonso - ABOUT ME</title>
 	<nav>
-		<img src={gianImage} alt="Gian Alfonso" className="profile-pic"/> <br></br>
-		<button onClick={() => window.location.href = '/'} className='home-button'>Home</button>
+		<img src={gianImage} alt="Gian Alfonso" className="profile-pic"/> <br/>
+		<button onClick={() => navigate('/')} className='home-button'>Home</button>
 	</nav>
 	<div>
 		
