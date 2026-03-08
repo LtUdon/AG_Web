@@ -8,14 +8,25 @@ function About() {
 return (
 	<>
 	<title>Gian Alfonso - ABOUT ME</title>
-	<nav>
-		
-		<button onClick={() => navigate('/')} className='home-button'>
-			<img src={gianImage} alt="Gian Alfonso" className="profile-pic"/> <br/>
-		</button>
-	</nav>
+	<header className='header'>
+		<div className='header-content'>
+			<nav className='nav'>
+				<button onClick={() => navigate('/')} className='home-button'>
+					<img src={gianImage} alt="Gian Alfonso" className="profile-pic"/> <br/>
+				</button>
+				<ul className='nav-list'>
+					<li className='nav-item'>
+						<a href='#'>Projects</a>
+					</li>
+					<li className='nav-item'>
+						<a href='#'>Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div className='header-compensate'></div>
 	<div>
-		
 		<div className='about-container'>
 			<h1>About Me</h1>
 					<p>

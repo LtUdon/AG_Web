@@ -93,6 +93,23 @@ nav > ul{
   height: 175px;
 }
 
+.header-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-image: linear-gradient(to bottom, #00000077, #00000000);
+}
+
+.header-compensate{
+  height:125px;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #0072ec;
