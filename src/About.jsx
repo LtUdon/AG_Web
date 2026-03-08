@@ -9,8 +9,10 @@ return (
 	<>
 	<title>Gian Alfonso - ABOUT ME</title>
 	<nav>
-		<img src={gianImage} alt="Gian Alfonso" className="profile-pic"/> <br/>
-		<button onClick={() => navigate('/')} className='home-button'>Home</button>
+		
+		<button onClick={() => navigate('/')} className='home-button'>
+			<img src={gianImage} alt="Gian Alfonso" className="profile-pic"/> <br/>
+		</button>
 	</nav>
 	<div>
 		

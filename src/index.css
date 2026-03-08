@@ -41,7 +41,7 @@ button {
   border: 1px solid transparent;
   border-color: #b1fcff;
   border-width: 1px;
-  padding: 0.6em 1.2em;
+  padding: 10px;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
@@ -83,6 +83,14 @@ nav > ul{
   justify-content: center;
   gap: 10px;
   margin-top: 10px;
+}
+
+.home-button{
+  background-color: transparent;
+  border-color: transparent;
+  border-radius: 30%;
+  width: 175px;
+  height: 175px;
 }
 
 @media (prefers-color-scheme: light) {
