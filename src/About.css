@@ -7,31 +7,31 @@
 
 .token-container{
   display: flex;
-  justify-content: space-around;
+  justify-content:left;
+  gap: 10px;
   padding: 10px;
 }
 
 .token{
-  width: 100px;
+  width: 175px;
   height: 100px;
   background-color: #092747;
-  border-radius: 30%;
+  border-radius: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.token > i{
+  color: #00f7ff;
+  font-size: 75px;
+  padding: 5px;
 }
 
 .profile-pic {
   border-radius: 30%;
   width: 150px;
   height: 150px;
-}
-
-.button_directories {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 10px;
 }
 
 .about-container {

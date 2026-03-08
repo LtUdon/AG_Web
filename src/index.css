@@ -75,6 +75,13 @@ nav > ul{
   gap: 40px;
 }
 
+.button_directories {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #0072ec;
