@@ -5,6 +5,7 @@
   text-align: center;
 }
 
+/* Token details */
 .token-container{
   display: flex;
   justify-content:left;
@@ -15,7 +16,9 @@
 .token{
   width: 175px;
   height: 100px;
-  background-color: #092747;
+  border-color: #b1fcff;
+  border-width: 10px;
+  background-color: #0f355e;
   border-radius: 25px;
   display: flex;
   justify-content: center;

@@ -5,6 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
+  background-image: linear-gradient(to bottom, #004e54, #001327);
   background-color: #001327;
 
   font-synthesis: none;
@@ -38,6 +39,8 @@ h1 {
 button {
   border-radius: 10px;
   border: 1px solid transparent;
+  border-color: #b1fcff;
+  border-width: 1px;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
