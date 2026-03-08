@@ -88,9 +88,20 @@ nav > ul{
 .home-button{
   background-color: transparent;
   border-color: transparent;
+  border-width: 10px;
   border-radius: 30%;
-  width: 175px;
-  height: 175px;
+  width: 190px;
+  height: 190px;
+}
+
+.header{
+  background-color: transparent;
+}
+
+.header-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (prefers-color-scheme: light) {
