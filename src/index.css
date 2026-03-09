@@ -91,6 +91,8 @@ nav > ul{
   border-radius: 30%;
   width: 175px;
   height: 175px;
+  justify-content: center;
+  align-content: center;
 }
 
 .header-content{

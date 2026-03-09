@@ -16,7 +16,7 @@ return (
 				</button>
 				<ul className='nav-list'>
 					<li className='nav-item'>
-						<a href='#'>Projects</a>
+						<a onClick={() => navigate('/projects')}>Projects</a>
 					</li>
 					<li className='nav-item'>
 						<a href='#'>Contact</a>
@@ -35,7 +35,7 @@ return (
 					</p>
 					<p>
 						Growing up, I've always had a love for video games and decided to persue game development. <br/>
-						I've had my first taste in programming since I was 14. And since then, I realized that problem-solving has been my favorite aspect in programming! <br/>
+						I've had my first taste in programming since I was 14. And since then, I realized that problem-solving has been the most satisfying aspect in programming! <br/>
 						After learning Java and C# in high school, I decided to continue my programming journey and major in Computer Science exploring more languages. <br/>
 						Now, as a UH student I've been able to get my hands on a more hands-on experience in video game development among other concepts! <br/>
 					</p>

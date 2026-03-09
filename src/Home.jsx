@@ -14,7 +14,7 @@ return (
 		<h1>Hi, I'm Gian!</h1>
 		<div className='button_directories'>
 			<button onClick={() => navigate('/about')}>About</button>
-			<button onClick={() => alert('WIP: Projects')}>Projects</button>
+			<button onClick={() => navigate('/projects')}>Projects</button>
 			<button onClick={() => alert('WIP: Contact')}>Contact</button>
 		</div>
 	</div>
