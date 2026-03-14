@@ -1,5 +1,4 @@
-**Site:** https://ltudon.github.io/AG_Web/
-**PNG-to-SVG Converter:**https://boxy-svg.com/
+https://ltudon.github.io/AG_Web/
 # Notes
 ## To Self
 ### Start-up

@@ -2,7 +2,7 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: left;
+  text-align: center;
 }
 
 /* Token details */
@@ -29,6 +29,12 @@
   color: #00f7ff;
   font-size: 75px;
   padding: 5px;
+}
+
+.profile-pic {
+  border-radius: 30%;
+  width: 150px;
+  height: 150px;
 }
 
 .about-container {

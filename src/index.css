@@ -7,7 +7,6 @@
   color: rgba(255, 255, 255, 0.87);
   background-image: linear-gradient(to bottom, #004e54, #001327);
   background-color: #001327;
-  background-attachment: fixed;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -25,10 +24,11 @@ a:hover {
 }
 
 body {
-  /*margin: 0;*/
-  /*display: flex;*/
-  align-items: center;
-  justify-content: left;
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
 }
 
 h1 {
@@ -110,12 +110,6 @@ nav > ul{
 
 .header-compensate{
   height:125px;
-}
-
-.profile-pic {
-  border-radius: 30%;
-  width: 150px;
-  height: 150px;
 }
 
 @media (prefers-color-scheme: light) {
