@@ -8,7 +8,7 @@ function Home() {
 return (
 	<>
 	<title>Gian Alfonso</title>
-	<div>
+	<div className='home-container'>
 		<img src={gianImage} alt="Gian Alfonso" className="profile-pic-home"/>
 		
 		<h1>Hi, I'm Gian!</h1>
