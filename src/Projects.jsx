@@ -29,17 +29,17 @@ return (
 	<div>
 		<div className='projects-container'>
 			<h1>Projects</h1>
-			<ul className='project-list'>
-				<li className='project-token'>
-					Essoterra
-				</li>
-				<li className='project-token'>
-					Orion Project
-				</li>
-				<li className='project-token'>
-					Volunteering Website
-				</li>
-			</ul>
+			<div className='project-list'>
+				<div className='project-item'>
+				Esoterra
+				</div>
+				<div className='project-item'>
+				Orion Project
+				</div>
+				<div className='project-item'>
+				"Volunteering Central" Website
+				</div>
+			</div>
 		</div>
 	</div>
 	</>
