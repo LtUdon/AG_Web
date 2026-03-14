@@ -2,10 +2,6 @@ import { useNavigate } from 'react-router-dom'
 import './Projects.css'
 import gianImage from '/Gian.png'
 
-import esoterra_Map from '/projects/esoterra/Esoterra_Map.png?url'
-import esoterra_River from '/projects/esoterra/Esoterra_River.png?url'
-import gamePlay from '/projects/esoterra/ESOTERRA_Trailer.mp4?url'
-
 function Projects() {
 	const navigate = useNavigate()
 
@@ -16,7 +12,7 @@ return (
 		<div className='header-content'>
 			<nav className='nav'>
 				<button onClick={() => navigate('/')} className='home-button'>
-					<img src={gianImage} alt="Gian Alfonso" className="profile-pic"/>
+					<img src={gianImage} alt="Gian Alfonso" className="profile-pic"/> <br/>
 				</button>
 				<ul className='nav-list'>
 					<li className='nav-item'>
@@ -35,27 +31,19 @@ return (
 			<h1>Projects</h1>
 			<ul className='project-list'>
 				<li className='project-token'>
-					<h2>Esoterra</h2>
+					<h2>Essoterra</h2>
 					<p>
 						A third-person exploration/survival game where the player must explore special intrests within and information of the island.
 						<ul>
 							<li>A collaborative project initially involving 7 developers.</li>
 							<li>In the programming side, I was tasked with:</li>
 							<ul>
-								<li>Creating an interactive inventory system to promote ease-of-use equippment management to adapt to a high-paced environment.</li>
+								<li>Creating an interactive inventory system to promote ease-of-use and quick equippment change to adapt to a high-paced environment.</li>
 								<li>Creating an immersive crafting system that efficiently interacts with the inventory system, updating the player's inventory contents based crafting requirements.</li>
 							</ul>
 							<li>In the creative side, I was involved in designing the island and pin-pointing special intrests for players to explore.</li>
 						</ul>
 					</p>
-					<a href='https://files.luckydiestudios.org/Esoterra/' className='anchor-reference'>
-						<img src={esoterra_Map} alt="Esoterra Map"/>
-						<img src={esoterra_River} alt="Esoterra River"/>
-					</a>
-					<video controls>
-						<source src={gamePlay} type="video/mp4"></source>
-						Your browser does not support the video tag.
-					</video>
 				</li>
 				<li className='project-token'>
 					<h2>Orion Project</h2>

@@ -15,16 +15,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-html, body {
-  margin: 0;
-  overflow-x: hidden; /* prevents horizontal overflow */
-}
-
-body {
-  min-width: 320px;
-  min-height: 100vh;
-}
-
 a {
   font-weight: 500;
   color: #00f7ff;
@@ -114,7 +104,7 @@ nav > ul{
   display: flex;
   align-items: center;
   justify-content: start;
-  background-image: linear-gradient(to bottom, #041326, #04132625);
+  background-image: linear-gradient(to bottom, #00000077, #00000000);
 }
 
 .header-compensate{

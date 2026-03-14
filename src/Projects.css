@@ -31,11 +31,3 @@
   padding: 16px;
   width: 500px;
 }
-
-.anchor-reference > img {
-  width: 50%;
-}
-
-.anchor-reference > video {
-  width: 100%
-}
