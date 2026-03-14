@@ -20,6 +20,7 @@
   border-width: 10px;
   background-color: #0f355e;
   border-radius: 25px;
+  border: 1px solid #b1fcff;
   display: flex;
   justify-content: center;
   align-items: center;

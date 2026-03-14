@@ -14,3 +14,20 @@
 .projects-container { 
   text-align: left; 
 }
+
+.project-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.project-token{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #0f355e;
+  border: 1px solid #b1fcff;
+  border-radius: 25px;
+  padding: 16px;
+  width: 500px;
+}

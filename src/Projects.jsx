@@ -31,13 +31,54 @@ return (
 			<h1>Projects</h1>
 			<ul className='project-list'>
 				<li className='project-token'>
-					Essoterra
+					<h2>Essoterra</h2>
+					<p>
+						A third-person exploration/survival game where the player must explore special intrests within and information of the island.
+						<ul>
+							<li>A collaborative project initially involving 7 developers.</li>
+							<li>In the programming side, I was tasked with:</li>
+							<ul>
+								<li>Creating an interactive inventory system to promote ease-of-use and quick equippment change to adapt to a high-paced environment.</li>
+								<li>Creating an immersive crafting system that efficiently interacts with the inventory system, updating the player's inventory contents based crafting requirements.</li>
+							</ul>
+							<li>In the creative side, I was involved in designing the island and pin-pointing special intrests for players to explore.</li>
+						</ul>
+					</p>
 				</li>
 				<li className='project-token'>
-					Orion Project
+					<h2>Orion Project</h2>
+					<p>
+						A minimal Real-time strategy game where the player must achieve full control in a system to win. <br/>
+						<ul>
+							<li>A personal project that employs a strict architecture for practicing compatability between the C++ and Unreal Engine's Blueprints.</li>
+						<li>In a given class hierarchy, <b>C++</b> was used for classes that have children while Unreal Engine's <b>Blueprints</b> were used for classes that did not.</li>
+						</ul>
+
+					</p>
 				</li>
 				<li className='project-token'>
-					Volunteering Website
+					<h2>Volunteering Website</h2>
+					<p>
+						A volunteering-matching website that allows users to match volunteering events with their skills.
+						<ul>
+							<li>A team-based assignment website of 4 people to employ our skills in full-stack development and database querying logic.</li>
+							<li>The user can:</li>
+							<ul>
+								<li>Create an account and edit their credentials and skills.</li>
+								<li>Employ the user's skills to match them with a matching event.</li>
+								<li>With admin controls, they can create events themselves and apply relevant skills recommended.</li>
+							</ul>
+						</ul>
+					</p>
+				</li>
+				<li className='project-token'>
+					<h2>Project</h2>
+					<p>
+						Description
+						<ul>
+							<li>Item</li>
+						</ul>
+					</p>
 				</li>
 			</ul>
 		</div>
