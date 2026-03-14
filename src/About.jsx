@@ -12,7 +12,7 @@ return (
 		<div className='header-content'>
 			<nav className='nav'>
 				<button onClick={() => navigate('/')} className='home-button'>
-					<img src={gianImage} alt="Gian Alfonso" className="profile-pic"/> <br/>
+					<img src={gianImage} alt="Gian Alfonso" className="profile-pic"/>
 				</button>
 				<ul className='nav-list'>
 					<li className='nav-item'>
