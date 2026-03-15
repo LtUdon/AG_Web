@@ -18,9 +18,9 @@
   height: 100px;
   border-color: #b1fcff;
   border-width: 10px;
-  background-color: #0f355e;
+  background-color: #0f355e75;
   border-radius: 25px;
-  border: 1px solid #b1fcff;
+  /* border: 1px solid #b1fcff; */
   display: flex;
   justify-content: center;
   align-items: center;

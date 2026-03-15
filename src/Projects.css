@@ -25,8 +25,8 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  background-color: #0f355e;
-  border: 1px solid #b1fcff;
+  background-color: #0f355e75;
+  /* border: 1px solid #b1fcff; */
   border-radius: 25px;
   padding: 16px;
   width: 500px;
@@ -34,4 +34,10 @@
 
 .anchor-reference > img {
   width: 50%;
+}
+
+iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: none;
 }
