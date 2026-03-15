@@ -37,6 +37,17 @@ return (
 			<ul className='project-list'>
 				<li className='project-token'>
 					<h2>Esoterra</h2>
+					<div className='token-container-projectVar'>
+						<div className='token-projectVar'>
+							<i class="devicon-unrealengine-original"></i>
+						</div>
+						<div className='token-projectVar'>
+							<i class="devicon-blender-original"></i>
+						</div>
+						<div className='token-projectVar'>
+							<i class="devicon-cplusplus-plain"></i>
+						</div>
+					</div>
 					<p>
 						A third-person exploration/survival game where the player must explore special intrests within and information of the island.
 					</p>
@@ -74,6 +85,17 @@ return (
 				</li>
 				<li className='project-token'>
 					<h2>Orion Project</h2>
+					<div className='token-container-projectVar'>
+						<div className='token-projectVar'>
+							<i class="devicon-unrealengine-original"></i>
+						</div>
+						<div className='token-projectVar'>
+							<i class="devicon-blender-original"></i>
+						</div>
+						<div className='token-projectVar'>
+							<i class="devicon-cplusplus-plain"></i>
+						</div>
+					</div>
 					<p>
 						A minimal Real-time strategy game where the player must achieve full control in a system to win. <br/>
 					</p>
@@ -98,6 +120,23 @@ return (
 				</li>
 				<li className='project-token'>
 					<h2>Volunteering Website</h2>
+					<div className='token-container-projectVar'>
+						<div className='token-projectVar'>
+							<i class="devicon-nodejs-plain-wordmark"></i>
+						</div>
+						<div className='token-projectVar'>
+							<i class="devicon-postgresql-plain"></i>
+						</div>
+						<div className='token-projectVar'>
+							<i class="devicon-javascript-plain"></i>
+						</div>
+						<div className='token-projectVar'>
+							<i class="devicon-html5-plain"></i>
+						</div>
+						<div className='token-projectVar'>
+							<i class="devicon-css3-plain"></i>
+						</div>
+					</div>
 					<p>
 						A volunteering-matching website that allows users to match volunteering events with their skills.
 					</p>

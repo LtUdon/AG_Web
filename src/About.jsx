@@ -82,14 +82,6 @@ return (
 						<i class="devicon-postgresql-plain"></i>
 						PostgreSQL
 					</div>
-					<div className='token'>
-						<i class="devicon-mysql-original"></i>
-						MySQL
-					</div>
-					<div className='token'>
-						<i class="devicon-sqlite-plain"></i>
-						SQLite
-					</div>
 				</div>
 				<h3>Web Development</h3>
 				<div className='token-container'>
@@ -115,6 +107,13 @@ return (
 					<div className='token'>
 						<i class="devicon-blender-original"></i>
 						Blender
+					</div>
+				</div>
+				<h3>Middleware</h3>
+				<div className='token-container'>
+					<div className='token'>
+			            <i class="devicon-npm-original-wordmark"></i>
+						NPM
 					</div>
 				</div>
 		</div>

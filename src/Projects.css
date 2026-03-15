@@ -41,3 +41,30 @@ iframe {
   aspect-ratio: 16 / 9;
   border: none;
 }
+
+/* Token details */
+.token-container-projectVar{
+  display: flex;
+  justify-content:left;
+  gap: 10px;
+  padding: 10px;
+}
+
+.token-projectVar{
+  width: 25%;
+  height: 100px;
+  border-color: #b1fcff;
+  border-width: 10px;
+  background-color: #0f355e75;
+  border-radius: 25px;
+  /* border: 1px solid #b1fcff; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.token-projectVar > i{
+  color: #00f7ff;
+  font-size: 75px;
+  padding: 5px;
+}
