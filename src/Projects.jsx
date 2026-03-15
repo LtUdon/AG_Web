@@ -4,6 +4,8 @@ import gianImage from '/Gian.png'
 
 import esoterra_Map from '/projects/esoterra/map.png?url'
 import esoterra_Temple from '/projects/esoterra/temple.png?url'
+import projectOrion_Attrition from '/projects/project_orion/attrition.png?url'
+import projectOrion_UI from '/projects/project_orion/UI.png?url'
 
 function Projects() {
 	const navigate = useNavigate()
@@ -50,7 +52,7 @@ return (
 							<li>Finalizing the base design island.</li>
 							<li>Pin-pointing special intrests for players to explore.</li>
 						</ul>
-						<li><a href='https://files.luckydiestudios.org/Esoterra/'>Visit downolad page here</a></li>
+						<a href='https://files.luckydiestudios.org/Esoterra/'>Visit downolad page</a>
 					</ul>
 					
 					<a 
@@ -75,25 +77,39 @@ return (
 					<p>
 						A minimal Real-time strategy game where the player must achieve full control in a system to win. <br/>
 					</p>
-						<ul>
-							<li>A personal project that employs a strict architecture for practicing compatability between the C++ and Unreal Engine's Blueprints.</li>
+					<ul>
+						<li>A personal project that employs a strict architecture for practicing compatability between the C++ and Unreal Engine's Blueprints.</li>
 						<li>In a given class hierarchy, <b>C++</b> was used for classes that have children while Unreal Engine's <b>Blueprints</b> were used for classes that did not.</li>
-						</ul>
+						<li>This project is still a work-in-progress so the art direction is a bit more limited.</li>
+					</ul>
+					<a href='https://github.com/LtUdon/Orion_Project.git'>Visit repository</a>
+					<a 
+					href='https://github.com/LtUdon/Orion_Project.git' 
+					className='anchor-reference'>
+						<img 
+						src={projectOrion_Attrition} 
+						alt="Attrition of a planet"
+						title='Attrition of a planet. CLICK for repository!'/>
+						<img 
+						src={projectOrion_UI} 
+						alt="UI Showcase"
+						title='UI showcase. CLICK for repository!'/>
+					</a>
 				</li>
 				<li className='project-token'>
 					<h2>Volunteering Website</h2>
 					<p>
 						A volunteering-matching website that allows users to match volunteering events with their skills.
 					</p>
+					<ul>
+						<li>A team-based assignment website of 4 people to employ our skills in full-stack development and database querying logic.</li>
+						<li>The user can:</li>
 						<ul>
-							<li>A team-based assignment website of 4 people to employ our skills in full-stack development and database querying logic.</li>
-							<li>The user can:</li>
-							<ul>
-								<li>Create an account and edit their credentials and skills.</li>
-								<li>Employ the user's skills to match them with a matching event.</li>
-								<li>With admin controls, they can create events themselves and apply relevant skills recommended.</li>
-							</ul>
+							<li>Create an account and edit their credentials and skills.</li>
+							<li>Employ the user's skills to match them with a matching event.</li>
+							<li>With admin controls, they can create events themselves and apply relevant skills recommended.</li>
 						</ul>
+					</ul>
 				</li>
 				<li className='project-token'>
 					<h2>Project</h2>
